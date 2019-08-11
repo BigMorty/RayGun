@@ -3,7 +3,7 @@
     public class Raygun
     {
 
-        private int ammo = 3;
+        private int ammo = 5;
 
         public void FireAt(Bug bug)
         {
@@ -23,7 +23,7 @@
 
         public void Recharge()
         {
-            ammo = 3;
+            ammo = 5;
         }
 
         public bool HasAmmo()
